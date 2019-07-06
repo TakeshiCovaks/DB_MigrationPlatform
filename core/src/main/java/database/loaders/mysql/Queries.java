@@ -1,0 +1,36 @@
+package database.loaders.mysql;
+
+/**
+ * Class contains a list of database requests.
+ */
+public class Queries {
+    public static final String SHOW_TABLES = "SHOW FULL TABLES WHERE TABLE_TYPE LIKE 'BASE TABLE';";
+    public static final String SHOW_VIEW = "SHOW FULL TABLES WHERE TABLE_TYPE LIKE 'VIEW'";
+    public static final String SHOW_STORED_PROCEDURE = "SHOW PROCEDURE STATUS WHERE Db=DATABASE()";
+    public static final String SHOW_FUNCTION = "SHOW FUNCTION STATUS WHERE Db=DATABASE()";
+    public static final String SHOW_META_DB = "SELECT * FROM information_schema.SCHEMATA WHERE schema_name=?";
+
+    public static final String SHOW_META_TABLE = "SHOW TABLE STATUS where name=?";
+
+    public static final String SHOW_VIEW_COLUMNS = "SELECT *  FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA =? AND TABLE_NAME=?";
+    public static final String SHOW_META_VIEW_ATTR = "SELECT * FROM INFORMATION_SCHEMA.VIEWS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME=?";
+    public static final String SHOW_META_VIEW_COLUMNS_ATTR = "SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME=?";
+
+    public static final String SHOW_META_FUNCTION = "SELECT * FROM information_schema.ROUTINES WHERE ROUTINE_SCHEMA=? AND ROUTINE_TYPE='FUNCTION' AND SPECIFIC_NAME=?;";
+    public static final String SHOW_META_FUNCTION_PARAM = "SELECT * FROM INFORMATION_SCHEMA.PARAMETERS WHERE SPECIFIC_SCHEMA=? AND SPECIFIC_NAME=?;";//"SHOW CREATE FUNCTION ";
+
+    public static final String SHOW_META_PROCEDURE_ATTR = "SHOW PROCEDURE STATUS WHERE Db=? AND Name=?";
+    public static final String SHOW_META_PROCEDURE_PARAMETERS = "SELECT * FROM INFORMATION_SCHEMA.PARAMETERS WHERE SPECIFIC_SCHEMA=? AND SPECIFIC_NAME=?";
+    public static final String SHOW_META_PROCEDURE_BODY = "SELECT ROUTINE_DEFINITION FROM information_schema.ROUTINES WHERE SPECIFIC_NAME=?";
+
+    public static final String SHOW_COLUMNS_TABLE = "DESCRIBE ";
+    public static final String SHOW_INDEXES_TABLE = "SHOW INDEX FROM ";
+
+    public static final String SHOW_FOREIGN_KEY_TABLE = "SELECT CONSTRAINT_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA=DATABASE() AND TABLE_NAME =?";
+    public static final String SHOW_FOREIGN_KEY_TABLE_ATTR = "SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA=DATABASE() AND TABLE_NAME =?";
+
+    public static final String SHOW_TRIGGERS_TABLE = "select TRIGGER_NAME from information_schema.triggers WHERE TRIGGER_SCHEMA=DATABASE() AND EVENT_OBJECT_TABLE=?";
+    public static final String SHOW_TRIGGERS_TABLE_ATTR = "select * from information_schema.triggers  " +
+            "WHERE TRIGGER_SCHEMA=DATABASE() AND EVENT_OBJECT_TABLE=? AND TRIGGER_NAME=?";
+
+}

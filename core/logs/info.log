@@ -1,0 +1,6 @@
+2019-07-06 20:31:57 INFO  PrinterManager  executePrinter  44   - Printer successfully.
+2019-07-06 20:31:57 INFO  DomParserXML    execute         125  - ----------> Start parsing.
+2019-07-06 20:31:57 INFO  DomParserXML    createTreeFromFileXML 50   - Tree built successfully.
+2019-07-06 20:31:57 INFO  DomParserXML    createTreeFromFileXML 50   - Tree built successfully.
+2019-07-06 20:31:58 INFO  SerializableXML createXMLFileFromTheTree 50   - End serialization tree in XML file completed successfully-> src\test\resources\resultSerialization.xml
+2019-07-06 20:31:58 INFO  DomParserXML    createTreeFromFileXML 50   - Tree built successfully.

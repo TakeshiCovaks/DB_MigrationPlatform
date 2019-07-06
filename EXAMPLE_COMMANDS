@@ -1,0 +1,33 @@
+
+*********************************************************************
+                    EXAMPLE COMMANDS FOR TASK
+*********************************************************************
+
+    1 Task
+        output result.xml search component -d input workspace.xml
+
+        [command] [parametersCommand]
+
+        Commands:
+            input
+            output
+            search
+
+        Parameters command:
+            for input/output [nameFile]
+            for search command [nameElementOrKeyValueAttributes [typeSearch]]
+
+                Type search:
+                    -d depth search
+                    -w width search
+_____________________________________________________________________
+
+    2 Task
+        print sushko_proj.tables.car_category
+        connect MySQL localHost:3306/sushko_proj root 12345
+        load lazy sushko_proj
+             lazy sushko_proj.tables
+             full sushko_proj.tables.car_category
+
+
+*********************************************************************

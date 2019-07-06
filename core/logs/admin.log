@@ -1,0 +1,29 @@
+2019-07-06 20:31:57 DEBUG Reflection      readClassesRuntime 41   - Start reflection load classes.
+2019-07-06 20:31:57 DEBUG FunctionPrinter print           23   - Create DDL for database.printers.mysql.FunctionPrinter minus
+2019-07-06 20:31:57 DEBUG PrinterManager  loadMapInstance 54   - Map generation with class instances to printer
+2019-07-06 20:31:57 DEBUG Reflection      readClassesRuntime 41   - Start reflection load classes.
+2019-07-06 20:31:57 DEBUG Reflection      readClassesRuntime 52   - End reflection load classes. Count instance=20
+2019-07-06 20:31:57 DEBUG TablePrinter    print           26   - Create DDL for database.printers.mysql.TablePrinter animals
+2019-07-06 20:31:57 DEBUG PrinterManager  executePrinter  43   - DROP TABLE IF EXISTS animals;
+CREATE TABLE animals ( 
+nameAnimal varchar(45),
+population int(11) DEFAULT 0,
+habitat varchar(45) DEFAULT 'All planet');
+
+2019-07-06 20:31:57 INFO  PrinterManager  executePrinter  44   - Printer successfully.
+2019-07-06 20:31:57 INFO  DomParserXML    execute         125  - ----------> Start parsing.
+2019-07-06 20:31:57 DEBUG DomParserXML    createElementFromFile 62   - DocumentBuilderFactory, DocumentBuilder, Document created successfully.
+2019-07-06 20:31:57 DEBUG DomParserXML    createTreeFromFileXML 46   - Created root element-> structures.TreeNode@f663fcc3
+2019-07-06 20:31:57 DEBUG DomParserXML    createTreeFromFileXML 48   - Started to create a tree depending on the children of the parent.
+2019-07-06 20:31:57 INFO  DomParserXML    createTreeFromFileXML 50   - Tree built successfully.
+2019-07-06 20:31:57 DEBUG DomParserXML    createElementFromFile 62   - DocumentBuilderFactory, DocumentBuilder, Document created successfully.
+2019-07-06 20:31:57 DEBUG DomParserXML    createTreeFromFileXML 46   - Created root element-> structures.TreeNode@f663fcc3
+2019-07-06 20:31:57 DEBUG DomParserXML    createTreeFromFileXML 48   - Started to create a tree depending on the children of the parent.
+2019-07-06 20:31:57 INFO  DomParserXML    createTreeFromFileXML 50   - Tree built successfully.
+2019-07-06 20:31:57 DEBUG SerializableXML createXMLFileFromTheTree 46   - Start serialization tree in XML file-> src\test\resources\resultSerialization.xml
+2019-07-06 20:31:57 DEBUG SerializableXML createXMLFileFromTheTree 46   - Start serialization tree in XML file-> src\test\resources\resultSerialization.xml
+2019-07-06 20:31:58 INFO  SerializableXML createXMLFileFromTheTree 50   - End serialization tree in XML file completed successfully-> src\test\resources\resultSerialization.xml
+2019-07-06 20:31:58 DEBUG DomParserXML    createElementFromFile 62   - DocumentBuilderFactory, DocumentBuilder, Document created successfully.
+2019-07-06 20:31:58 DEBUG DomParserXML    createTreeFromFileXML 46   - Created root element-> structures.TreeNode@f663fcc3
+2019-07-06 20:31:58 DEBUG DomParserXML    createTreeFromFileXML 48   - Started to create a tree depending on the children of the parent.
+2019-07-06 20:31:58 INFO  DomParserXML    createTreeFromFileXML 50   - Tree built successfully.

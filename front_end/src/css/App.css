@@ -1,0 +1,13 @@
+.App {
+    webkit-align-items: normal;
+    align-items: normal;
+}
+
+.hello {
+    margin-bottom: 50px;
+}
+
+.simple-btn {
+    width: 300px;
+
+}

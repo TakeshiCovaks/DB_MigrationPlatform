@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="editorHistoryManager">1.55
+        <entry file="file://$PROJECT_DIR$/src/TreeNode.java">text
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="670"><![CDATA[<"ENG Text РУС Текст" 'Еще какой то текст'>]]>
+                    <caret line="282" selection-start-line="282" selection-end-line="282"/>
+                    <folding>
+                        <element signature="imports" expanded="true"/>
+                        <element signature="e#1178#1179#0" expanded="true"/>
+                        <element signature="e#1205#1206#0" expanded="true"/>
+                        <element signature="e#1245#1246#0" expanded="true"/>
+                        <element signature="e#2602#2603#0" expanded="true"/>
+                        <element signature="e#3895#3896#0" expanded="true"/>
+                        <element signature="e#3936#3937#0" expanded="true"/>
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/ChildNode.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                    <caret line="8" column="49" selection-start-line="8" selection-start-column="45"
+                           selection-end-line="8" selection-end-column="49"/>
+                    <folding>
+                        <element signature="imports" expanded="true"/>
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                    <caret line="31" column="38" selection-start-line="31" selection-start-column="38"
+                           selection-end-line="31" selection-end-column="38"/>
+                    <folding>
+                        <element signature="imports" expanded="true"/>
+                        <element signature="e#1178#1179#0" expanded="true"/>
+                        <element signature="e#1205#1206#0" expanded="true"/>
+                        <element signature="e#3936#3937#0" expanded="true"/>
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/MyTree.iml">
+            <provider selected="true" editor-type-id="text-editor"/>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/Tree234.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-238">
+                    <caret line="42" column="32" lean-forward="true" selection-start-line="42"
+                           selection-start-column="32" selection-end-line="42" selection-end-column="32"/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/MyTree.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state>
+                    <caret column="21" selection-start-column="21" selection-end-column="21"/>
+                </state>
+            </provider>
+        </entry>
+    </component>
+    <component name="masterDetails">
+        <states>
+            <state key="ProjectJDKs.UI">
+                <settings>
+                    <last-edited>1.8</last-edited>
+                    <splitter-proportions>
+                        <option name="proportions">
+                            <list>
+                                <option value="0.2"/>
+                            </list>
+                        </option>
+                    </splitter-proportions>
+                </settings>
+            </state>
+        </states>
+    </component>
+</project>

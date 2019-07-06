@@ -1,0 +1,36 @@
+{
+  "name": "front_end",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://localHost:8080/front",
+  "mode": "production",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "universal-cookie": "^3.1.0"
+  },
+  "scripts": {
+    "build-min": "npm run build:react && npm run build:bundle",
+    "build": "react-scripts build",
+    "build:react": "react-scripts build",
+    "build:bundle": "webpack --config webpack.config.js",
+    "start": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "file-saver": "^2.0.1",
+    "react-checkbox-tree": "^1.5.1",
+    "uglifyjs": "^2.4.11",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack-cli": "^3.3.0"
+  }
+}
