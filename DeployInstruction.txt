@@ -1,0 +1,39 @@
+
+Instruction for deploying:
+
+Part I (backend).
+    1. Clone project from https://github.com/AlexeySushko/DB_MigrationPlatform.git
+    2. Open Maven tab.
+            Select sushko_db directory -> Lifecycle -> Package
+            After that the war file will created  ...DB_MigrationPlatform\back_end\target\back-0.0.1-SNAPSHOT.war
+
+    3. Run TomcatServer(Install as needed) on you PC.
+    4. Open browser :
+            http://localhost:8080/   ->  Manager App  -> In block 'WAR file for deployment' select path to 'back-0.0.1-SNAPSHOT.war'
+            from this project   -> Click 'Deploy'
+
+Part II (frontend).
+    1. Open terminal, go to directory 'front_end'
+    2. If you do not have NPM installed then install.
+        Enter command 'npm install'
+        Enter command 'npm run build'
+
+        After that in directory ...'front_end' created folder 'build'
+    3. Coppy folder "build" to folder .../Program Files/Apache Software Foundation/Tomcat/webapps
+    4. In 'webapps' folder rename folder 'build' to 'front'
+    5. Open browser
+           http://localhost:8080/front
+
+           Read 'Help' link.
+________________________________________________________________________________________________________________________
+
+
+Example for start page
+
+    Type database:  MySQL
+    URL:            localhost
+    Port:           3306
+    Name database:  sys
+    Username:       your mysql username (root)
+    Password:       your pass
+________________________________________________________________________________________________________________________
