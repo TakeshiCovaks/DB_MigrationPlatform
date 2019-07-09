@@ -3,6 +3,8 @@ Instruction for deploying:
 
 Part I (backend).
     1. Clone project from https://github.com/AlexeySushko/DB_MigrationPlatform.git
+       Open project with 'Intellij IDEA'
+       When you first open the project in the pop-up window, select 'Enable Auto-import'
     2. Open Maven tab.
             Select sushko_db directory -> Lifecycle -> Package
             After that the war file will created  ...DB_MigrationPlatform\back_end\target\back-0.0.1-SNAPSHOT.war
