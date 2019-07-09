@@ -2,7 +2,7 @@
   <artifact type="jar" name="sushko_db:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/sushko_db_jar</output-path>
     <root id="archive" name="sushko_db.jar">
-      <element id="module-output" name="sushko_db" />
+      <element id="module-output" name="DB_MigrationPlatform" />
       <element id="module-output" name="console" />
       <element id="module-output" name="core" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
